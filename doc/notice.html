@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>공지사항</title>
+  <!--favicon-->
+
+
+  <!--font-->
+  <link rel="stylesheet" href="../css/font.css">
+
+  <!--icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!--css-->
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../css/aos.css">
+
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/sub.css">
+
+  <!--js-->
+  <script src="../js/jquery-4.0.0.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/aos.js"></script>
+  <script src="../js/common.js"></script>
+  <script src="../js/sub.js"></script>
+</head>
+<body>
+  <div id="wrap">
+
+    <header>
+      <div class="inner">
+        <h1><a href="../index.html"><img src="../imges/common/logo.png" alt="아르미치과의원"></a></h1>
+        <nav>
+          <ul class="gnb">
+
+            <li><a href="dentist.html">아르미 소개</a>
+              <ul class="depth2">
+                <li><a href="dentist.html">의료진 소개</a></li>
+                <li><a href="tour.html">둘러보기</a></li>
+                <li><a href="location.html">찾아오시는 길</a></li>
+              </ul>
+            </li>
+
+            <li><a href="implant.html">임플란트</a>
+              <ul class="depth2">
+                <li><a href="implant.html">임플란트</a></li>
+                <li><a href="#">틀니 임플란트</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">심미치료</a>
+              <ul class="depth2">
+                <li><a href="#">라미네이트</a></li>
+                <li><a href="#">올세라믹</a></li>
+                <li><a href="#">앞니레진</a></li>
+                <li><a href="#">치아미백</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">치아교정</a>
+              <ul class="depth2">
+                <li><a href="#">일반교정</a></li>
+                <li><a href="#">앞니교정</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">내치아 살리기</a>
+              <ul class="depth2">
+                <li><a href="#">치주치료</a></li>
+                <li><a href="#">사랑니</a></li>
+                <li><a href="#">충치치료</a></li>
+                <li><a href="#">보철치료</a></li>
+              </ul>
+            </li>
+
+            <li><a href="case.html">치료사례</a></li>
+
+            <li><a href="notice.html">커뮤니티</a>
+              <ul class="depth2">
+                <li><a href="notice.html">공지사항</a></li>
+                <li><a href="#">온라인 상담</a></li>
+              </ul>
+            </li>
+
+          </ul><!--.gnb-->
+        </nav>
+
+        <ul class="utill">
+          <li class="login">
+            <a href="#">로그인</a>
+          </li>
+          <li class="bi bi-list ham"></li>
+        </ul>
+      </div><!--.inner-->
+
+      <div class="mgnb-wrap">
+
+        <ul class="mgnb-bar">
+          <li class="mgnb-logo">
+            <img src="../imges/common/logo.png" alt="아르미치과의원">
+          </li><!--.mgnb-logo-->
+          <li>
+            <div class="bi bi-x-lg mgnb-close mgnb-close"></div>
+          </li>
+        </ul><!--mgnb-bar-->
+
+        <h3>전체메뉴</h3>
+        <ul class="mgnb">
+
+          <li>
+            <ul class="mgnb-select">
+              <li>아르미 소개</li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+
+            <ul class="mdepth2">
+              <li><a href="dentist.html">의료진 소개</a></li>
+              <li><a href="tour.html">둘러보기</a></li>
+              <li><a href="location.html">찾아오시는 길</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="mgnb-select">
+              <li>임플란트</li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+
+            <ul class="mdepth2">
+              <li><a href="implant.html">임플란트</a></li>
+              <li><a href="#">틀니 임플란트</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="mgnb-select">
+              <li>심미치료</li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+
+            <ul class="mdepth2">
+              <li><a href="#">라미네이트</a></li>
+              <li><a href="#">올세라믹</a></li>
+              <li><a href="#">앞니레진</a></li>
+              <li><a href="#">치아미백</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="mgnb-select">
+              <li>치아교정</li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+
+            <ul class="mdepth2">
+              <li><a href="#">일반교정</a></li>
+              <li><a href="#">앞니교정</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="mgnb-select">
+              <li>내치아 살리기</li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+
+            <ul class="mdepth2">
+              <li><a href="#">치주치료</a></li>
+              <li><a href="#">사랑니</a></li>
+              <li><a href="#">충치치료</a></li>
+              <li><a href="#">보철치료</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="mgnb-select">
+              <li><a href="case.html">치료사례</a></li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="mgnb-select">
+              <li>커뮤니티</li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+
+            <ul class="mdepth2">
+              <li><a href="notice.html">공지사항</a></li>
+              <li><a href="#">온라인 상담</a></li>
+            </ul>
+          </li>
+
+        </ul><!--.mgnb-->
+
+      </div><!--.mgnb-wrap-->
+      <div class="depth2-bg"></div><!--depth2 뒷배경-->
+    </header>
+
+    <div id="container">
+
+      <div class="sub-visual bg-notice">
+
+        <div class="inner">
+
+          <strong>NOTICE</strong>
+          <h2>공지사항</h2>
+          <p>아르미치과에서 전달하는<br>새로운 소식 및 공지를 확인해보세요.</p>
+
+        </div><!--.inner-->
+
+      </div><!--.bg-notice-->
+
+      <div class="content">
+
+        <div class="notice">
+
+          <div class="inner">
+
+            <div class="notice-search">
+
+              <p>총 <span>3</span>종</p>
+
+              <form>
+
+                <fieldset>
+                  
+                  <legend>공지사항 검색영역</legend>
+
+                  <div class="select">
+                    <select>
+                      <option>전체</option>
+                      <option>제목</option>
+                      <option>내용</option>
+                    </select>
+
+                    <div class="search">
+                      <input type="text" placeholder="검색어를 입력해주세요.">
+                      <button type="button"><img src="../imges/dental_icon/common_icon/search.png" alt="검색"></button>
+                    </div><!--.search-->
+                  </div><!--.select-->
+
+                </fieldset>
+
+              </form>
+
+            </div><!--.notice-search-->
+
+            <table summary="공지사항 정보에 대한 등록일, 제목을 확인할 수 있습니다.">
+
+              <caption>공지사항 목록</caption>
+
+              <tbody>
+                <tr>
+
+                  
+                  <td class="notice-date">
+                    <strong>31</strong>
+                    <p>2020.01</p>
+                  </td><!--.notice-date-->
+
+                  <td class="notice-category">공지</td><!--.notice-category-->
+
+                  <td class="notice-title">
+                    <a href="#">신종코로나바이러스로 의료기관 및 국민 여러분들께 안내드립니다.</a>
+                  </td><!--.notice-title-->
+
+                  <td class="notice-arrow">
+                    <a href="#"><img src="../imges/dental_icon/common_icon/chevron-right.png" alt="공지사항 상세보기"></a>
+                  </td><!--notice-arrow-->
+                  
+
+                </tr>
+
+                <tr>
+
+                  
+                  <td class="notice-date">
+                    <strong>23</strong>
+                    <p>2020.01</p>
+                  </td><!--.notice-date-->
+
+                  <td class="notice-category">공지</td><!--.notice-category-->
+
+                  <td class="notice-title">
+                    <a href="#">설연휴 진료시간 공지안내</a>
+                  </td><!--.notice-title-->
+
+                  <td class="notice-arrow">
+                    <a href="#"><img src="../imges/dental_icon/common_icon/chevron-right.png" alt="공지사항 상세보기"></a>
+                  </td><!--notice-arrow-->
+                  
+
+                </tr>
+
+                <tr>
+
+                  <td class="notice-date">
+                    <strong>15</strong>
+                    <p>2017.01</p>
+                  </td><!--.notice-date-->
+
+                  <td class="notice-category">공지</td><!--.notice-category-->
+
+                  <td class="notice-title">
+                    <a href="#">아르미치과 수가표</a>
+                  </td><!--.notice-title-->
+
+                  <td class="notice-arrow">
+                    <a href="#"><img src="../imges/dental_icon/common_icon/chevron-right.png" alt="공지사항 상세보기"></a>
+                  </td><!--notice-arrow-->
+
+                </tr>
+              </tbody>
+
+            </table><!--table-->
+
+          </div><!--.inner-->
+          
+        </div><!--.notice-->
+
+      </div><!--.content-->
+
+    </div><!--#container-->
+
+    <footer class="footer">
+
+      <div class="footer-inner">
+        <div class="footer-top">
+
+          <div class="footer-text">
+            <h2>당신의 아름다운 미소를 위해 최선을 다하겠습니다.</h2>
+            <p>전화 · 방문접수 · 네이버 온라인 예약으로 만나보세요.</p>
+          </div><!--footer-text-->
+
+          <div class="reserve-btn">
+            <a href="#">상담하러 가기
+              <i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div><!--reserve-btn-->
+
+        </div><!--footer-top-->
+
+        <div class="footer-bottom">
+
+          <div class="footer-logo">
+            <img src="../imges/common/logo.png" alt="아르미 치과">
+          </div><!--footer-logo-->
+
+          <div class="footer-info">
+
+            <p class="info-top">
+              <span>상호 : 아르미치과의원</span>
+              <span>대표 : 고무생</span>
+              <span>사업자등록번호 : 177-16-02726</span>
+            </p><!--info-top-->
+
+            <p>부산광역시 북구 백양대로 1189, 3층(구포동)</p>
+
+            <p class="info-contact">
+              <span>TEL 051-343-7928</span>
+              <span>FEX 051-343-7926</span>
+              <span>이메일 : rhantod@hanmail.net</span>
+            </p><!--info-contact"-->
+
+          </div><!--footer-info-->
+
+          <div class="footer-blog">
+            <a href="https://blog.naver.com/PostList.naver?blogId=labanalog&from=postList&categoryNo=6">
+              <img src="../imges/common/blog.png" alt="블로그"></a>
+          </div><!--footer-blog-->
+
+        </div><!--footer-bottom"-->
+
+        <p class="copyright">&copy;아르미치과의원. ALL RIGHTS RESERVED</p>
+      </div><!--footer-inner-->
+
+    </footer><!--footer-->
+
+  </div><!--#wrap-->
+</body>
+</html>

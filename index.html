@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>아르미치과의원</title>
+
+  <!--favicon-->
+
+
+  <!--font-->
+  <link rel="stylesheet" href="css/font.css">
+
+  <!--icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!--js-->
+  <script src="js/jquery-4.0.0.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/common.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <div class="inner_out">
+        <div class="inner">
+          <h1><a href="index.html"><img src="imges/common/logo.png" alt="아르미치과의원"></a></h1>
+          <nav>
+            <ul class="gnb">
+
+              <li><a href="doc/dentist.html">아르미 소개</a>
+                <ul class="depth2">
+                  <li><a href="doc/dentist.html">의료진 소개</a></li>
+                  <li><a href="doc/tour.html">둘러보기</a></li>
+                  <li><a href="doc/location.html">찾아오시는 길</a></li>
+                </ul>
+              </li>
+
+              <li><a href="doc/implant.html">임플란트</a>
+                <ul class="depth2">
+                  <li><a href="doc/implant.html">임플란트</a></li>
+                  <li><a href="doc/tl_implant.html">틀니 임플란트</a></li>
+                </ul>
+              </li>
+
+              <li><a href="doc/laminate.html">심미치료</a>
+                <ul class="depth2">
+                  <li><a href="doc/laminate.html">라미네이트</a></li>
+                  <li><a href="doc/allceramic.html">올세라믹</a></li>
+                  <li><a href="doc/front-resin.html">앞니레진</a></li>
+                  <li><a href="doc/whitening.html">치아미백</a></li>
+                </ul>
+              </li>
+
+              <li><a href="doc/orthodontics.html">치아교정</a>
+                <ul class="depth2">
+                  <li><a href="doc/orthodontics.html">일반교정</a></li>
+                  <li><a href="doc/front.html">앞니교정</a></li>
+                </ul>
+              </li>
+
+              <li><a href="doc/cheeju.html">내치아 살리기</a>
+                <ul class="depth2">
+                  <li><a href="doc/cheeju.html">치주치료</a></li>
+                  <li><a href="doc/love-teeth.html">사랑니</a></li>
+                  <li><a href="doc/chungchee.html">충치치료</a></li>
+                  <li><a href="doc/bochol.html">보철치료</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">치료사례</a></li>
+
+              <li><a href="doc/notice.html">커뮤니티</a>
+                <ul class="depth2">
+                  <li><a href="doc/notice.html">공지사항</a></li>
+                  <li><a href="doc/consultation.html">온라인 상담</a></li>
+                </ul>
+              </li>
+
+            </ul><!--.gnb-->
+          </nav>
+
+          <ul class="utill">
+            <li class="login">
+              <a href="#">로그인</a>
+            </li>
+            <li class="bi bi-list ham"></li>
+          </ul>
+        </div><!--.inner-->
+      </div>
+      <div class="mgnb-wrap">
+
+        <ul class="mgnb-bar">
+          <li class="mgnb-logo">
+            <img src="imges/common/logo.png" alt="아르미치과의원">
+          </li><!--.mgnb-logo-->
+          <li>
+            <div class="bi bi-x-lg mgnb-close mgnb-close"></div>
+          </li>
+        </ul><!--mgnb-bar-->
+
+        <h3>전체메뉴</h3>
+        <ul class="mgnb">
+
+          <li>
+            <ul class="mgnb-select">
+              <li>아르미 소개</li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+
+            <ul class="mdepth2">
+              <li><a href="doc/dentist.html">의료진 소개</a></li>
+              <li><a href="doc/tour.html">둘러보기</a></li>
+              <li><a href="doc/location.html">찾아오시는 길</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="mgnb-select">
+              <li>임플란트</li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+
+            <ul class="mdepth2">
+              <li><a href="doc/implant.html">임플란트</a></li>
+              <li><a href="doc/tl_implant.html">틀니 임플란트</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="mgnb-select">
+              <li>심미치료</li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+
+            <ul class="mdepth2">
+              <li><a href="doc/laminate.html">라미네이트</a></li>
+              <li><a href="doc/allceramic.html">올세라믹</a></li>
+              <li><a href="doc/front-resin.html">앞니레진</a></li>
+              <li><a href="doc/whitening.html">치아미백</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="mgnb-select">
+              <li>치아교정</li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+
+            <ul class="mdepth2">
+              <li><a href="doc/orthodontics.html">일반교정</a></li>
+              <li><a href="doc/front.html">앞니교정</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="mgnb-select">
+              <li>내치아 살리기</li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+
+            <ul class="mdepth2">
+              <li><a href="doc/cheeju.html">치주치료</a></li>
+              <li><a href="doc/love-teeth.html">사랑니</a></li>
+              <li><a href="doc/chungchee.html">충치치료</a></li>
+              <li><a href="doc/bochol.html">보철치료</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="mgnb-select">
+              <li><a href="#">치료사례</a></li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="mgnb-select">
+              <li>커뮤니티</li>
+              <li><i class="bi bi-chevron-down"></i></li>
+            </ul>
+
+            <ul class="mdepth2">
+              <li><a href="doc/notice.html">공지사항</a></li>
+              <li><a href="doc/consultation.html">온라인 상담</a></li>
+            </ul>
+          </li>
+
+        </ul><!--.mgnb-->
+
+      </div><!--.mgnb-wrap-->
+      <div class="depth2-bg"></div><!--depth2 뒷배경-->
+    </header>
+
+    <main>
+
+      <section id="main-visual">
+        <div class="inner" data-aos="fade-up">
+
+          <!-- 왼쪽 -->
+          <div class="swiper visual-img">
+            <ul class="swiper-wrapper">
+
+              <li class="swiper-slide">
+                <img src="imges/main/main_banner01.png" alt="메인 이미지 1" class="main-pc-img">
+                <img src="imges/main/main_banner_tab01.png" alt="메인 이미지 1">
+              </li>
+
+              <li class="swiper-slide">
+                <img src="imges/main/main_banner02.png" alt="메인 이미지 2" class="main-pc-img">
+                <img src="imges/main/main_banner_tab02.png" alt="메인 이미지 2">
+              </li>
+
+              <li class="swiper-slide">
+                <img src="imges/main/main_banner03.png" alt="메인 이미지 3" class="main-pc-img">
+                <img src="imges/main/main_banner_tab03.png" alt="메인 이미지 3">
+              </li>
+
+            </ul><!--.swiper-wrapper-->
+
+          </div><!--.swiper visual-img-->
+
+          <!-- 오른쪽 -->
+          <div class="visual-content">
+
+            <div class="visual-top">
+              <!-- 문구 슬라이드 -->
+              <div class="swiper visual-text-swiper">
+                <ul class="swiper-wrapper">
+
+                  <li class="swiper-slide">
+                    <div class="visual-text">
+                      <p class="visual-en">CARE FOR YOUR EVERYDAY SMILE</p>
+
+                      <h2>
+                        한자리에서 지켜온 <span>시간,</span><br>
+                        한결같이 이어온 <span>진료</span>
+                      </h2>
+
+                      <p class="visual-desc">
+                        부산에서 약 20년, 환자의 치아 건강을 위해<br>
+                        진료의 기본을 묵묵히 지켜왔습니다.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="swiper-slide">
+                    <div class="visual-text">
+                      <p class="visual-en">CARE FOR YOUR EVERYDAY SMILE</p>
+
+                      <h2>
+                        건강한 미소를 위한<br>
+                        <span>섬세한 진료</span>
+                      </h2>
+
+                      <p class="visual-desc">
+                        환자의 입장에서 생각하는 진료,
+                        <br>
+                        아르미치과가 함께합니다.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="swiper-slide">
+                    <div class="visual-text">
+                      <p class="visual-en">CARE FOR YOUR EVERYDAY SMILE</p>
+
+                      <h2>
+                        치료의 시작은,<br>
+                        <span>충분한 이해부터</span>
+                      </h2>
+
+                      <p class="visual-desc">
+                        궁금한 점은 편하게 묻고,<br>
+                        필요한 진료는 차근차근 알아가세요.
+                      </p>
+                    </div>
+                  </li>
+
+                </ul><!--.swiper-wrapper-->
+
+              </div><!--swiper visual-text-swiper-->
+
+              <!-- 반응형 예약 버튼 -->
+              <div class="visual-btn">
+                <a href="tel:0513437928">
+                  <i class="bi bi-telephone"></i>
+                  전화상담
+                </a>
+
+                <a href="https://naver.me/F6ngPklO">
+                  <i class="bi bi-calendar4"></i>
+                  네이버 예약
+                </a>
+              </div><!--.visual-btn-->
+            </div><!--.visual-top-->
+
+            <div class="visual-pagination"></div>
+
+            <div class="visual-info">
+
+              <div class="hours-card">
+                <h3>진료 시간</h3>
+                <dl class="hours-list">
+                  <div>
+                    <dt>월 · 화 · 금</dt>
+                    <dd>09:30 - 18:30</dd>
+                  </div>
+
+                  <div>
+                    <dt>
+                      수요일
+                      <span class="night">야간진료</span>
+                    </dt>
+                    <dd>09:30 - 21:00</dd>
+                  </div>
+
+                  <div>
+                    <dt>토요일</dt>
+                    <dd>09:30 - 14:00</dd>
+                  </div>
+
+                  <div class="holiday">
+                    <dt>목 · 일</dt>
+                    <dd>정기휴무</dd>
+                  </div>
+                </dl>
+
+                <ul class="break-time">
+                  <li>
+                    <i class="bi bi-clock"></i>
+                    휴게시간
+                  </li>
+                  <li>13:00 - 14:30</li>
+                </ul>
+              </div><!--.hours-card-->
+
+              <!-- 주소 / 전화 -->
+              <div class="contact-card">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <div>
+                    <p>
+                      부산시 북구 구포1동<br>
+                      602-26번지 3층 (구포동)
+                    </p>
+                    <small>(구포덕천역1번출구)</small>
+                  </div>
+                </div><!--.address-->
+
+                <a href="tel:0513437928" class="phone">
+                  <i class="bi bi-telephone"></i>
+                  <span>051-343-7928</span>
+                </a><!--phone-->
+              </div><!--.contact-card-->
+
+            </div><!--.visual-info-->
+          </div><!--.visual-content-->
+
+        </div><!--.inner-->
+
+        <!--하단 바로가기-->
+        <div class="main-link">
+          <div class="inner">
+
+            <div>
+              <a href="#location">
+                <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                <span>덕천역 1번 출구, 도보 1분</span>
+              </a>
+            </div>
+
+            <div>
+              <a href="#faq">
+                <i class="bi bi-chat" aria-hidden="true"></i>
+                <span>방문 전 안내</span>
+              </a>
+            </div>
+
+            <div>
+              <a href="https://naver.me/F6ngPklO">
+                <i class="bi bi-calendar4" aria-hidden="true"></i>
+                <span>네이버 온라인 예약</span>
+              </a>
+            </div>
+
+          </div><!--.inner-->
+        </div><!--.main-link-->
+
+      </section><!--#main-visual-->
+
+      <section id="clinic-intro">
+        <div class="inner">
+
+          <!-- PC에서만 보이는 경력 정보 -->
+          <div class="intro-career">
+            <p class="career-label">스무 해, 숫자에 담기는 경력</p>
+            <div class="career-number">
+              약 <strong class="count-num">0</strong> 년
+            </div>
+          </div><!--.intro-career-->
+
+          <!-- 메인 문구 -->
+          <div class="intro-content">
+            <h2>
+              <span>건강한</span> 치아,<br>
+              <span>정확한 진단</span>에서 시작합니다.
+            </h2>
+
+            <p class="intro-desc">
+              같은 고민에도 필요한 치료는 다를 수 있습니다.<br>
+              치료의 불편함을 줄이고, 앞으로의 구강 건강까지 함께 생각합니다.<br>
+              오래 지켜온 진료의 기본으로 당신의 일상을 이어갑니다.
+            </p>
+          </div>
+
+          <!-- 3가지 철학 -->
+          <div class="intro-values">
+
+            <div class="value-item" data-aos="fade-up">
+              <h3>환자를 정확하게</h3>
+              <p>치아의 상태와 상황을 먼저 살핍니다.</p>
+            </div>
+
+            <div class="value-item" data-aos="fade-up">
+              <h3>치료는 이해하기 쉽게</h3>
+              <p>환자분의 눈높이로 치료 방법을 설명합니다.</p>
+            </div>
+
+            <div class="value-item" data-aos="fade-up">
+              <h3>일상은 건강하게</h3>
+              <p>치료 이후의 꾸준한 관리까지 생각합니다.</p>
+            </div>
+
+          </div><!--.intro-values-->
+
+        </div><!--.inner-->
+      </section><!--#clinic-intro-->
+
+      <section id="treatment">
+        <div class="inner">
+
+          <div class="treatment-title" data-aos="fade-up">
+            <h2>
+              여기, 아르미에서<br>
+              나에게 <span>필요한 진료</span>를 만나보세요.
+            </h2>
+
+            <p>
+              치아 한 개의 고민부터 일상의 관리까지,
+              현재 상태에 맞는 치료를 알아보세요.
+            </p>
+          </div><!--.treatment-title-->
+
+          <div class="swiper treatment-swiper" data-aos="fade-up">
+            <ul class="swiper-wrapper">
+
+              <!-- 임플란트 -->
+              <li class="swiper-slide">
+                <a href="#">
+                  <div class="treatment-img">
+                    <img src="imges/main/dental_treat01.png" alt="임플란트">
+                  </div>
+
+                  <div class="treatment-info">
+                    <small>기능의 회복</small>
+                    <div class="treatment-name">
+                      <h3>임플란트</h3>
+                      <i class="bi bi-arrow-up-right"></i>
+                    </div>
+                    <p>상실된 치아의 기능 회복을 위한 치료</p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- 심미보철 -->
+              <li class="swiper-slide">
+                <a href="#">
+                  <div class="treatment-img">
+                    <img src="imges/main/dental_treat02.png" alt="심미보철">
+                  </div>
+
+                  <div class="treatment-info">
+                    <small>자연스러운 조화</small>
+                    <div class="treatment-name">
+                      <h3>심미보철</h3>
+                      <i class="bi bi-arrow-up-right"></i>
+                    </div>
+                    <p>치아의 형태와 색을 고려하는<br>심미적 보철 치료</p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- 치아교정 -->
+              <li class="swiper-slide">
+                <a href="#">
+                  <div class="treatment-img">
+                    <img src="imges/main/dental_treat03.png" alt="치아교정">
+                  </div>
+
+                  <div class="treatment-info">
+                    <small>균형 잡힌 치열</small>
+                    <div class="treatment-name">
+                      <h3>치아교정</h3>
+                      <i class="bi bi-arrow-up-right"></i>
+                    </div>
+                    <p>치열과 교합을 함께 고려하는 교정 치료</p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- 일반진료 -->
+              <li class="swiper-slide">
+                <a href="#">
+                  <div class="treatment-img">
+                    <img src="imges/main/dental_treat04.png" alt="일반진료">
+                  </div>
+
+                  <div class="treatment-info">
+                    <small>일상의 건강</small>
+                    <div class="treatment-name">
+                      <h3>일반진료</h3>
+                      <i class="bi bi-arrow-up-right"></i>
+                    </div>
+                    <p>검진부터 충치치료 관리까지<br>일상 속 구강 건강 진료</p>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+          <p class="treatment-notice">
+            치료 방법과 범위는 개인의 구강 상태에 따라 달라지며,
+            정확한 진단 후 상담을 통해 결정됩니다.
+          </p>
+
+        </div>
+      </section><!--#treatment-->
+
+      <section id="save-teeth">
+
+        <div class="inner">
+          <div class="save-img" data-aos="fade-up">
+            <img src="imges/main/save_teeth.png" alt="내치아살리기 이미지">
+          </div><!--.save-img-->
+
+          <div class="save-txt" data-aos="fade-up">
+            <h2>오래 쓰고 싶은 내 치아니까, <br>
+              작은 변화부터 살핍니다.</h2>
+            <p>시린 느낌, 잇몸의 불편함, 씹을 때의 변화.<br>
+              작은 신호도 가볍게 넘기지 마세요.<br>
+              검진과 충치·잇몸 관리로 구강 건강을 챙겨보세요.</p>
+            <ul>
+              <li>정기검진</li>
+              <li>충치치료</li>
+              <li>잇몸관리</li>
+            </ul>
+            <div class="save-btn" data-aos="fade-up">
+              <a href="#">내치아 살리기<i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div><!--.save-txt-->
+        </div><!--.inner-->
+
+      </section><!--#save-teeth-->
+
+      <section id="dental-guide">
+        <div class="inner">
+
+          <div class="guide-tit" data-aos="fade-up">
+            <h2>건강한 치아,<br>
+              <span>정확한 진단</span>에서 시작합니다.
+            </h2>
+            <p>익숙하지 않은 치료도 이해하기 쉽게, 내게 맞는 치료를 찾기 위한 첫걸음입니다.</p>
+          </div><!--guide-tit-->
+
+          <!-- 카드 영역 -->
+          <ul class="guide-list">
+
+            <!-- 틀니 임플란트 -->
+            <li class="guide-card" data-aos="fade-up">
+              <a href="#">
+                <div class="guide-img01">
+                  <div class="guide-img-txt">
+                    <small>치료 가이드</small>
+                    <h3>틀니 임플란트</h3>
+                  </div>
+                </div>
+
+                <div class="guide-info">
+                  <h4>틀니의 흔들림이 고민이세요?</h4>
+                  <p>
+                    임플란트로 틀니의 지지를 돕는 치료입니다.<br>
+                    현재 사용 중인 틀니의 상태와
+                    잇몸, 치조골 등을 살펴본 후 안내합니다.
+                  </p>
+
+                  <div class="guide-more">
+                    <span>자세히 알아보기</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </a>
+            </li><!--guide-card-->
+
+            <!-- 라미네이트 -->
+            <li class="guide-card" data-aos="fade-up">
+              <a href="#">
+                <div class="guide-img02">
+                  <div class="guide-img-txt">
+                    <small>치료 가이드</small>
+                    <h3>라미네이트</h3>
+                  </div>
+                </div>
+
+                <div class="guide-info">
+                  <h4>치아의 색과 모양이 고민이세요?</h4>
+                  <p>
+                    치아의 색상과 모양을 개선해 주는
+                    심미적인 치료입니다.<br>
+                    치아 상태를 살펴본 후 안내합니다.
+                  </p>
+
+                  <div class="guide-more">
+                    <span>자세히 알아보기</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+              </a>
+            </li><!--guide-card-->
+
+          </ul><!--guide-list-->
+
+          <p class="dental-guide-notice">
+            이 안내는 일반적인 치료 정보이며, 개인별 치료 계획은 진료 후 달라질 수 있습니다.
+          </p>
+
+        </div><!--.inner-->
+      </section><!--#dental-guide-->
+
+      <section id="faq">
+        <div class="inner">
+
+          <div class="faq-tit" data-aos="fade-up">
+            <h2>방문 전 안내<br>
+              먼저 확인하세요.</h2>
+            <p>그 외 상담 및 문의는<br>
+              051-343-7928로 연락해 주세요.</p>
+          </div><!--.faq-tit-->
+
+          <div class="faq-list" data-aos="fade-up">
+
+            <!-- 첫 번째 질문 -->
+            <div class="faq-item active">
+              <div class="faq-question">
+                <h3>상담이나 예약은 어떻게 하나요?</h3>
+                <i class="bi bi-chevron-up"></i>
+              </div><!--.faq-question-->
+
+              <div class="faq-answer">
+                <p>전화나 네이버 예약을 통해 상담 및 예약을 진행할 수 있습니다.</p>
+              </div><!--.faq-answer-->
+            </div><!--.faq-item-->
+
+            <!-- 두 번째 질문 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>공휴일에도 진료를 받을 수 있나요?</h3>
+                <i class="bi bi-chevron-up"></i>
+              </div><!--.faq-question-->
+
+              <div class="faq-answer">
+                <p>공휴일은 휴진이며, 자세한 진료 일정은 병원에 문의해 주세요.</p>
+              </div><!--.faq-answer-->
+            </div><!--.faq-item-->
+
+            <!-- 세 번째 질문 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>점심시간과 쉬는 날은 언제인가요?</h3>
+                <i class="bi bi-chevron-up"></i>
+              </div><!--.faq-question-->
+
+              <div class="faq-answer">
+                <p>점심시간은 13:00~14:30이며, 목요일과 일요일은 정기휴무입니다.</p>
+              </div><!--.faq-answer-->
+            </div><!--.faq-item-->
+
+          </div><!--.faq-list-->
+
+        </div><!--.inner-->
+      </section><!--#faq-->
+
+      <section id="location">
+        <div class="inner">
+
+          <div class="loc-txt" data-aos="fade-up">
+            <h2>찾아 오시는 길</h2>
+            <ul class="loc-txt-right">
+              <li class="loc-right-top">
+                문의사항
+              </li><!--.loc-right-top-->
+              <li class="loc-right-bottom">
+                <i class="bi bi-telephone"></i>
+                051-343-7928
+              </li><!--loc-right-bottom-->
+            </ul><!--.loc-txt-right-->
+          </div><!--.loc-txt-->
+
+          <div class="loc-content">
+            <!-- 왼쪽 지도 -->
+            <div class="location-map" data-aos="fade-up">
+
+              <div class="map-iframe">
+                <iframe src="https://www.google.com/maps?q=부산광역시+북구+백양대로+1189&output=embed" title="아르미치과 위치"
+                  loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen>
+                </iframe>
+              </div><!--.map-iframe-->
+
+              <div class="map-info">
+                <div class="map-address">
+                  <strong>부산광역시 북구 백양대로 1189, 3층(구포동)</strong>
+                  <p>구포역 인근 1번 출구</p>
+                </div>
+                <i class="bi bi-clipboard"></i>
+              </div><!--map-info-->
+
+            </div><!-- .location-map -->
+
+
+            <!-- 오른쪽 진료시간 -->
+            <div class="location-info" data-aos="fade-up">
+
+              <h2>진료시간 안내</h2>
+
+              <div class="time-list">
+
+                <div class="time-item">
+                  <span>월 · 화 · 금</span>
+                  <p>09:30 - 18:30</p>
+                </div>
+
+                <div class="time-item">
+                  <span>
+                    수요일
+                    <em>야간진료</em>
+                  </span>
+                  <p>09:30 - 21:00</p>
+                </div>
+
+                <div class="time-item">
+                  <span>토요일</span>
+                  <p>09:30 - 14:00</p>
+                </div>
+
+                <div class="time-item">
+                  <span>점심시간</span>
+                  <p>13:00 - 14:30</p>
+                </div>
+
+              </div><!-- .time-list -->
+
+              <p class="location-holiday">
+                목요일 · 일요일 정기휴무
+              </p>
+
+              <div class="location-btn">
+                <a href="https://naver.me/F6ngPklO" class="naver-btn">
+                  네이버 지도
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+                <a href="tel:0513437928" class="call-btn">
+                  전화 문의
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+
+              <p class="location-notice">
+                주차 등 방문 관련 사항은 병원으로 문의해 주세요.
+              </p>
+
+            </div><!-- .location-info -->
+          </div><!--.loc-content-->
+
+        </div><!--.inner-->
+      </section><!--#location-->
+
+    </main>
+
+    <footer class="footer">
+
+      <div class="footer-inner">
+        <div class="footer-top">
+
+          <div class="footer-text">
+            <h2>당신의 아름다운 미소를 위해 최선을 다하겠습니다.</h2>
+            <p>전화 · 방문접수 · 네이버 온라인 예약으로 만나보세요.</p>
+          </div><!--footer-text-->
+
+          <div class="reserve-btn">
+            <a href="#">상담하러 가기
+              <i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div><!--reserve-btn-->
+
+        </div><!--footer-top-->
+
+        <div class="footer-bottom">
+
+          <div class="footer-logo">
+            <img src="imges/common/logo.png" alt="아르미 치과">
+          </div><!--footer-logo-->
+
+          <div class="footer-info">
+
+            <p class="info-top">
+              <span>상호 : 아르미치과의원</span>
+              <span>대표 : 고무생</span>
+              <span>사업자등록번호 : 177-16-02726</span>
+            </p><!--info-top-->
+
+            <p>부산광역시 북구 백양대로 1189, 3층(구포동)</p>
+
+            <p class="info-contact">
+              <span>TEL 051-343-7928</span>
+              <span>FEX 051-343-7926</span>
+              <span>이메일 : rhantod@hanmail.net</span>
+            </p><!--info-contact"-->
+
+          </div><!--footer-info-->
+
+          <div class="footer-blog">
+            <a href="https://blog.naver.com/PostList.naver?blogId=labanalog&from=postList&categoryNo=6">
+              <img src="imges/common/blog.png" alt="블로그"></a>
+          </div><!--footer-blog-->
+
+        </div><!--footer-bottom"-->
+
+        <p class="copyright">&copy;아르미치과의원. ALL RIGHTS RESERVED</p>
+      </div><!--footer-inner-->
+
+    </footer><!--footer-->
+
+    <a href="#" class="floating-chat" aria-label="상담 바로가기">
+      <i class="bi bi-chat"></i>
+    </a>
+
+  </div><!--#wrap-->
+
+</body>
+
+</html>
